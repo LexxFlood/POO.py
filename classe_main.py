@@ -17,12 +17,17 @@ if __name__ == '__main__':
 
     print("\nFuncionario 1: ", f1.get_nome(), "| salario: ", f1.get_salario())
     f1.set_nome(f1)
+
     print("Funcionario 2: ", f2.get_nome(), "| salario: ", f2.get_salario())
+    print("Bonificacao: ", f2.bonus())
+
     print("Funcionario 3: ", f3.get_nome(), "| salario: ", f3.get_salario())
+    print("Bonificacao: ", f3.bonus())
+
 
 
     g1 = gerente(nome= "Fabio", salario= 7500.00, funcionarios= 3)
     print(g1)
     print("\nGerente: ", g1.get_nome(), "| salario: ", g1.get_salario(), "| funcionarios: ", g1.get_funcionarios())
-
+    print("Bonificacao: ", g1.bonus())
 

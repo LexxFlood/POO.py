@@ -9,6 +9,10 @@ class funcionario:
     def get_salario(self):
         return self.salario
 
+    def bonus(self):
+        bonus = self.salario * 0.10
+        return bonus
+
     def set_nome(self, novo_nome):
         self.nome = novo_nome
 
