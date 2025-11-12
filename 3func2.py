@@ -11,8 +11,10 @@ opção = int(input('Digite (1) para somar\n Digite (2) para subtrair\n Opção:
 
 if opção == 1:
     print('A soma é: ', soma(a, b))
-else:
+elif opção == 2:
     print('A subtração é: ', subtração(a, b))
+else:
+    print("Opção inválida")
 
 
 

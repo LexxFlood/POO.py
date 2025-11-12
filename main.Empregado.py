@@ -1,0 +1,3 @@
+from Empregado import Empregado
+
+
